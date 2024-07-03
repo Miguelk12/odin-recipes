@@ -1,19 +1,29 @@
 #titulo{
     font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 400px;
+    border: solid black 4px;
+    margin: auto;
 }
 
 .imagencosinero{
     width: 500px;
     height: auto;
+    padding-left: 500px;
 }
 
 .resetas{
     font-size: 30px;
     font-weight: bold;
     color: rgb(0, 225, 255) ;
+    padding: 20px 100px;
+    margin: auto;
 }
 
+.item{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
 h2{
     font-family: 'Courier New', Courier, monospace;
     color: rgb(196, 31, 31);
@@ -21,4 +31,8 @@ h2{
 
 * {
     font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(236, 234, 111);
 }
